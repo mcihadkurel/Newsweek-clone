@@ -19,6 +19,19 @@ h6 {
   margin: 15px 0;
 }
 
+a {
+  color: black;
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline #f72210;
+}
+
+ul {
+  list-style-type: none;
+}
+
 p {
   margin: 15px 0;
 }
@@ -32,7 +45,6 @@ header {
   background-color: red;
   padding: 25px;
   height: 115px;
-  color: white;
   position: relative;
 }
 
@@ -47,9 +59,7 @@ header .date-container img {
 }
 
 header .login-container a {
-  margin: 0 25px;
   text-decoration: none;
-  color: white;
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -180,6 +190,22 @@ article.mini h3 a {
 
 article.mini h3 a:hover {
   text-decoration: none;
+}
+
+.debate-item img {
+  width: 60px;
+}
+
+#vs {
+  background-color: black;
+  position: absolute;
+  top: 131px;
+  right: 150px;
+}
+
+.openion-section ul {
+  width: 100%;
+  padding: 0;
 }
 
 @media (min-width: 1200px) {
