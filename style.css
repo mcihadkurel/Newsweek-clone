@@ -1,64 +1,97 @@
-body{
-    font-family: 'Cairo', sans-serif;
-    font-size: 15px;
-    line-height:20px;
-    color:#333333;
-    font-weight: 400;
+body {
+  font-family: "Cairo", sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  color: #333333;
+  font-weight: 400;
 }
 
-h1,h2,h3,h4,h5,h6{
-     font-family: 'Roboto Condensed', sans-serif;
-}
- 
-nav{
-    background-color: red;
-    padding:25px;
-    color:white;
-}
-
-nav svg {
-    fill:white;
-    width: 396px;
-    height: 60px;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto Condensed", sans-serif;
 }
 
-nav .date-container img {
-    vertical-align: baseline;
+header {
+  background-color: red;
+  padding: 25px;
+  color: white;
 }
 
-nav .login-container a{
-    margin:0 25px;
-    text-decoration: none;
-    color:white;
-    text-transform: uppercase;
-    font-weight: bold;
+header svg {
+  fill: white;
+  width: 396px;
+  height: 60px;
 }
 
-
-nav .login-container button{
-   border: none;
-    outline: none;
-    background-color: #ffe400;
-    color: black;
-    padding: 2px 20px;
-    border-radius: 18px;
-    font-weight: bolder;
-    text-transform: uppercase;
+header .date-container img {
+  vertical-align: baseline;
 }
 
-nav .login-container button:after{
-    content: "";
-    display: inline-block;
-    width: 4px;
-    height: 9px;
-    background-color: black;
-    -webkit-mask: url(https://g.newsweek.com/www/images/icon-arrow-right.svg) center / contain no-repeat;
-    mask: url(https://g.newsweek.com/www/images/icon-arrow-right.svg) center / contain no-repeat;
-    margin-left: 5px;
+header .login-container a {
+  margin: 0 25px;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.list-unstyled {
+  margin-top: 1%;
+  background-color: white;
+  width: 100%;
+  color: #111;
+  font-size: 19px;
+}
+
+.list-unstyled li,
+.navsearch {
+  padding: 5px 12px;
+  font-weight: bolder;
+}
+
+.list-unstyled li a {
+  color: #111;
+  text-decoration: none;
+}
+
+header .login-container button {
+  border: none;
+  outline: none;
+  background-color: #ffe400;
+  color: black;
+  padding: 2px 20px;
+  border-radius: 18px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.list-unstyled li a:hover {
+  color: hsl(359, 98%, 48%);
+}
+
+header .login-container button:after {
+  content: "";
+  display: inline-block;
+  width: 4px;
+  height: 9px;
+  background-color: black;
+  -webkit-mask: url(https://g.newsweek.com/www/images/icon-arrow-right.svg)
+    center / contain no-repeat;
+  mask: url(https://g.newsweek.com/www/images/icon-arrow-right.svg) center /
+    contain no-repeat;
+  margin-left: 5px;
 }
 
 @media (min-width: 1200px) {
-    .container, .container-lg, .container-md, .container-sm, .container-xl {
-        max-width: 1310px;
-    }
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 1310px;
+  }
 }
