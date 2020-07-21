@@ -18,7 +18,9 @@ h6 {
 header {
   background-color: red;
   padding: 25px;
+  height: 115px;
   color: white;
+  position: relative;
 }
 
 header svg {
@@ -40,17 +42,39 @@ header .login-container a {
 }
 
 .list-unstyled {
-  margin-top: 1%;
+  position: absolute;
+  top: 100px;
+  padding: 15px 0;
   background-color: white;
-  width: 100%;
   color: #111;
   font-size: 19px;
 }
 
-.list-unstyled li,
-.navsearch {
-  padding: 5px 12px;
+.list-unstyled:before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "";
+  display: block;
+  width: 6px;
+  background-color: #f72210;
+  border-left: 12px solid white;
+  border-top: 15px solid #f72210;
+}
+
+.list-unstyled li {
+  padding: 5px 15px;
   font-weight: bolder;
+  border-right: 1px solid #d9d9d9;
+}
+
+.navsearch {
+  margin: 5px 15px;
+  padding-right: 20px;
+}
+
+.navsearch > span {
+  margin-right: 10px;
 }
 
 .list-unstyled li a {
