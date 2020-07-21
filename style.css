@@ -73,6 +73,26 @@ header .login-container a {
   padding-right: 20px;
 }
 
+.trendtopic {
+    margin-top: 33px;
+    position: relative;
+    right: 1%;
+    font-weight: bolder;
+    width: 100%;
+    border-top: 1px solid rgb(214, 210, 210);
+    border-bottom: 1px solid rgb(214, 210, 210);
+}
+
+.trendtopic li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+.trendtopic li a {
+    color: #807f84;
+    text-decoration: none;
+}
+
 .navsearch > span {
   margin-right: 10px;
 }
@@ -93,7 +113,9 @@ header .login-container button {
   text-transform: uppercase;
 }
 
-.list-unstyled li a:hover {
+.list-unstyled li a:hover,
+.trendtopic li a:hover,
+.featuredarticle h3:hover {
   color: hsl(359, 98%, 48%);
 }
 
