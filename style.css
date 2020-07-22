@@ -268,6 +268,35 @@ article.mini h3 a:hover {
   padding: 0;
 }
 
+footer p {
+  font-size: 12px;
+  color: #666;
+  margin: 24px 0 0 12px;
+}
+
+.socialicons {
+  margin: 1% 3% 0% 0;
+}
+
+.socialicons ul li {
+  font-size: 26px;
+  padding: 8px;
+}
+
+.editions ul {
+  padding: 0;
+}
+
+footer a:hover {
+  text-decoration: none;
+}
+
+.editions ul li a,
+.aboutus ul li a {
+  margin: 0 8px;
+  color: #666;
+}
+
 .red-headings > h3 {
   color: red;
 }
@@ -300,6 +329,14 @@ article.mini h3 a:hover {
 
 .news button {
   width: 150px;
+}
+
+.footer-links li {
+  display: inline;
+}
+
+.footer-links {
+  padding: 0;
 }
 
 @media (min-width: 1200px) {
