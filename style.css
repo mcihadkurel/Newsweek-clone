@@ -5,6 +5,7 @@ body {
   color: #333333;
   font-weight: 400;
   background-color: #f4f5f6;
+  overflow-x: hidden;
 }
 
 h1,
@@ -41,10 +42,31 @@ h3 {
   line-height: 24px;
 }
 
+nav {
+  position: relative;
+}
+
+#mobile-nav {
+  background-color: #f72210;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  z-index: 100;
+  padding: 0 15px;
+}
+
+#mobile-nav .logo-container svg {
+  width: 150px;
+  height: 50px;
+  fill: white;
+}
+
 header {
-  background-color: red;
-  padding: 25px;
-  height: 115px;
+  background-color: #f72210;
+  padding: 25px 30px;
+  height: 100px;
   position: relative;
 }
 
@@ -58,7 +80,11 @@ header .date-container img {
   vertical-align: baseline;
 }
 
-header .login-container a {
+.login-container {
+  font-size: 18px;
+}
+
+.login-container a {
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
@@ -84,40 +110,39 @@ figcaption {
 }
 
 .list-unstyled {
-  position: absolute;
-  top: 100px;
-  padding: 15px 0;
+  padding: 5px 0;
+  max-width: 98%;
   background-color: white;
   color: #111;
-  font-size: 19px;
+  font-size: 18px;
 }
 
 .list-unstyled:before {
   position: absolute;
-  top: 0;
+  top: 0px;
   right: 0;
   content: "";
   display: block;
-  width: 6px;
+  width: 5%;
   background-color: #f72210;
   border-left: 12px solid white;
-  border-top: 15px solid #f72210;
+  border-top: 17px solid #f72210;
 }
 
 .list-unstyled li {
-  padding: 5px 15px;
+  text-overflow: ellipsis;
+  padding: 5px 0.5%;
   font-weight: bolder;
   border-right: 1px solid #d9d9d9;
 }
 
 .navsearch {
-  margin: 5px 15px;
-  padding-right: 20px;
+  margin: 5px 1%;
+  padding-right: 1%;
 }
 
 .trendtopic {
   padding: 0;
-  margin-top: 33px;
   font-weight: bolder;
   border-top: 1px solid #f4f5f7;
   border-bottom: 1px solid #f4f5f7;
@@ -142,12 +167,12 @@ figcaption {
   text-decoration: none;
 }
 
-header .login-container button {
+.login-container button {
   border: none;
   outline: none;
   background-color: #ffe400;
   color: black;
-  padding: 2px 20px;
+  padding: 5px 25px;
   border-radius: 18px;
   font-weight: bolder;
   text-transform: uppercase;
@@ -210,7 +235,7 @@ h5 a {
   font-weight: bolder;
 }
 
-header .login-container button:after {
+.login-container button:after {
   content: "";
   display: inline-block;
   width: 4px;
@@ -285,16 +310,27 @@ footer p {
 
 .editions ul {
   padding: 0;
+  display: inline;
 }
 
 footer a:hover {
   text-decoration: none;
 }
 
-.editions ul li a,
-.aboutus ul li a {
+.editions ul li a {
   margin: 0 8px;
   color: #666;
+}
+
+.footer-links li a {
+  margin-right: 8px;
+  color: #666;
+}
+
+.footer-links li a:hover,
+.editions ul li a:hover {
+  margin-right: 8px;
+  color: black;
 }
 
 .red-headings > h3 {
@@ -325,6 +361,8 @@ footer a:hover {
 
 .news-input {
   width: 150px;
+  border: 1px solid #e0e1e1;
+  padding: 5px;
 }
 
 .news button {
@@ -332,7 +370,8 @@ footer a:hover {
 }
 
 .footer-links li {
-  display: inline;
+  display: inline-block;
+  margin-right: 5px;
 }
 
 .footer-links {
@@ -346,5 +385,11 @@ footer a:hover {
   .container-sm,
   .container-xl {
     max-width: 1310px;
+  }
+}
+
+@media (max-width: 992px) {
+  main {
+    margin-top: 60px;
   }
 }
