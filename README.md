@@ -2,7 +2,7 @@
 
 This project contains Twitter Bootstrap framework. 
 
-<img src="./images/projectSS.png" alt="Screenshot">
+<img src="./images/projectSS.png" alt="Screenshot">git
 
 
 ## Built With

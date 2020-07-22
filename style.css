@@ -52,6 +52,12 @@ nav {
   padding: 0 15px;
 }
 
+header svg {
+  fill: white;
+  width: 396px;
+  height: 60px;
+}
+
 #mobile-nav .logo-container svg {
   width: 150px;
   height: 50px;
@@ -65,14 +71,29 @@ header {
   position: relative;
 }
 
-header svg {
-  fill: white;
-  width: 396px;
-  height: 60px;
+main img {
+  width: 100%;
 }
 
 .subscribe-imgs img {
   width: 150px;
+}
+
+.sectionflex img {
+  width: 80px;
+  height: 80px;
+}
+
+.magazine-feature img {
+  height: 376px;
+}
+
+.magazine-article img {
+  height: 282px;
+}
+
+.debate-item img {
+  width: 60px;
 }
 
 header .date-container img {
@@ -83,6 +104,15 @@ header .date-container img {
   font-size: 18px;
 }
 
+h5 a {
+  font-weight: bolder;
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline #f72210;
+}
+
 .login-container a {
   text-decoration: none;
   text-transform: uppercase;
@@ -91,11 +121,6 @@ header .date-container img {
 
 .sectionflex {
   border-top: 1px solid #d9d9dd;
-}
-
-.sectionflex img {
-  width: 80px;
-  height: 80px;
 }
 
 figure {
@@ -120,7 +145,6 @@ figcaption {
   position: absolute;
   top: 0px;
   right: 0;
-  content: "";
   display: block;
   width: 5%;
   background-color: #f72210;
@@ -177,24 +201,12 @@ figcaption {
   text-transform: uppercase;
 }
 
-main img {
-  width: 100%;
-}
-
 .magazine-feature {
   margin-bottom: 1%;
 }
 
-.magazine-feature img {
-  height: 376px;
-}
-
 .magazine-article {
   margin-top: 10%;
-}
-
-.magazine-article img {
-  height: 282px;
 }
 
 .category {
@@ -210,26 +222,17 @@ main img {
   margin-right: 7px;
 }
 
-h5 a {
-  font-weight: bolder;
-}
-
-.category a {
-  padding: 0 7px;
-  color: #f72210;
-  text-decoration: none;
-  font-weight: bolder;
-}
-
 .login-container button:after {
   content: "";
   display: inline-block;
   width: 4px;
   height: 9px;
   background-color: black;
-  -webkit-mask: url(https://g.newsweek.com/www/images/icon-arrow-right.svg)
+  -webkit-mask:
+  url(https://g.newsweek.com/www/images/icon-arrow-right.svg)
     center / contain no-repeat;
-  mask: url(https://g.newsweek.com/www/images/icon-arrow-right.svg) center /
+  mask:
+  url(https://g.newsweek.com/www/images/icon-arrow-right.svg) center /
     contain no-repeat;
   margin-left: 5px;
 }
@@ -252,15 +255,16 @@ h5 a {
   text-transform: uppercase;
 }
 
+.footer-links li a {
+  margin-right: 8px;
+  color: #666;
+}
+
 article.mini h3 a {
   color: rgba(3, 3, 3, 0.5);
   font-size: 16px;
   line-height: 19px;
-  font-weight: 700px;
-}
-
-.debate-item img {
-  width: 60px;
+  font-weight: 700;
 }
 
 #vs {
@@ -300,11 +304,6 @@ footer p {
   display: inline;
 }
 
-.footer-links li a {
-  margin-right: 8px;
-  color: #666;
-}
-
 .editions ul li a {
   margin: 0 8px;
   color: #666;
@@ -318,6 +317,13 @@ footer a:hover {
   text-decoration: none;
 }
 
+.category a {
+  padding: 0 7px;
+  color: #f72210;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
 .list-unstyled li a:hover,
 .trendtopic li a:hover {
   color: hsl(359, 98%, 48%);
@@ -329,11 +335,6 @@ article h3:hover {
 
 article.mini h3 a:hover {
   text-decoration: none;
-}
-
-a:hover {
-  color: black;
-  text-decoration: underline #f72210;
 }
 
 .footer-links li a:hover,
