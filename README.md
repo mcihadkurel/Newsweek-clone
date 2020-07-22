@@ -2,6 +2,8 @@
 
 This project contains Twitter Bootstrap framework. 
 
+<img src="./images/projectSS.png" alt="Screenshot">
+
 
 ## Built With
 
@@ -13,7 +15,7 @@ This project contains Twitter Bootstrap framework.
 
 ## Live Demo
 
-[Live]()
+[Live](https://rawcdn.githack.com/mcihadkurel/Newsweek-clone/f3ea6094b9fc5d52cb170ddbdc1921e48d0a8ca3/index.html)
 
 
 👤 **Author**
