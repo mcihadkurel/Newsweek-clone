@@ -327,6 +327,10 @@ footer a:hover {
   color: #666;
 }
 
+.hidden {
+  display: none;
+}
+
 .footer-links li a:hover,
 .editions ul li a:hover {
   margin-right: 8px;
