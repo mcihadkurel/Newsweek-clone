@@ -64,6 +64,10 @@ header .login-container a {
   font-weight: bold;
 }
 
+.sectionflex {
+  border-top: 1px solid #d9d9dd;
+}
+
 .sectionflex img {
   width: 80px;
   height: 80px;
@@ -71,6 +75,7 @@ header .login-container a {
 
 figure {
   display: flex;
+  margin-top: 3%;
 }
 
 figcaption {
@@ -161,6 +166,51 @@ main img {
   width: 100%;
 }
 
+
+.magazine-feature {
+  margin-bottom: 1%;
+}
+
+.magazine-feature img {
+  height: 376px;
+}
+
+.magazine-article {
+  margin-top: 10%;
+}
+
+.magazine-article img {
+  height: 282px;
+}
+
+.category {
+  font: bold 16px/26px "Roboto Condensed",sans-serif;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.category span {
+  padding: 0 7px;
+    background-color: #f72210;
+    color: white;
+    margin-right: 7px;
+}
+
+.hidden {
+  display: none;
+}
+
+h5 a {
+  font-weight: bolder;
+}
+
+.category a {
+    padding: 0 7px;
+    color: #f72210;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
 header .login-container button:after {
   content: "";
   display: inline-block;
@@ -172,6 +222,17 @@ header .login-container button:after {
   mask: url(https://g.newsweek.com/www/images/icon-arrow-right.svg) center /
     contain no-repeat;
   margin-left: 5px;
+}
+
+.subscribe button {
+  border: none;
+  outline: none;
+  background-color: #f61602;
+  color: white;
+  padding: 2px 20px;
+  border-radius: 3px;
+  font-weight: bolder;
+  text-transform: uppercase;
 }
 
 .section-heading {
