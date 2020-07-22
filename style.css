@@ -166,7 +166,6 @@ main img {
   width: 100%;
 }
 
-
 .magazine-feature {
   margin-bottom: 1%;
 }
@@ -184,16 +183,16 @@ main img {
 }
 
 .category {
-  font: bold 16px/26px "Roboto Condensed",sans-serif;
+  font: bold 16px/26px "Roboto Condensed", sans-serif;
   margin-top: 10px;
   margin-bottom: 0;
 }
 
 .category span {
   padding: 0 7px;
-    background-color: #f72210;
-    color: white;
-    margin-right: 7px;
+  background-color: #f72210;
+  color: white;
+  margin-right: 7px;
 }
 
 .hidden {
@@ -205,10 +204,10 @@ h5 a {
 }
 
 .category a {
-    padding: 0 7px;
-    color: #f72210;
-    text-decoration: none;
-    font-weight: bolder;
+  padding: 0 7px;
+  color: #f72210;
+  text-decoration: none;
+  font-weight: bolder;
 }
 
 header .login-container button:after {
@@ -267,6 +266,40 @@ article.mini h3 a:hover {
 .openion-section ul {
   width: 100%;
   padding: 0;
+}
+
+.red-headings > h3 {
+  color: red;
+}
+
+.subscribe-imgs img {
+  width: 150px;
+}
+
+.subscribe-imgs img:nth-child(2) {
+  position: absolute;
+  top: 23px;
+  left: 117px;
+}
+
+.bg-subscribe {
+  background-color: #f4f5f6;
+}
+
+.bg-image {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5");
+}
+
+.news-input {
+  width: 150px;
+}
+
+.news button {
+  width: 150px;
 }
 
 @media (min-width: 1200px) {
