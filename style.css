@@ -2,7 +2,7 @@ body {
   font-family: "Cairo", sans-serif;
   font-size: 15px;
   line-height: 20px;
-  color: #333333;
+  color: #333;
   font-weight: 400;
   background-color: #f4f5f6;
   overflow-x: hidden;
@@ -15,18 +15,13 @@ h4,
 h5,
 h6 {
   font-family: "Roboto Condensed", sans-serif;
-  font-weight: 700px;
+  font-weight: 700;
   color: black;
   margin: 15px 0;
 }
 
 a {
   color: black;
-}
-
-a:hover {
-  color: black;
-  text-decoration: underline #f72210;
 }
 
 ul {
@@ -64,6 +59,12 @@ nav {
   color: rgba(255, 255, 255, 0.55);
 }
 
+header svg {
+  fill: white;
+  width: 396px;
+  height: 60px;
+}
+
 #mobile-nav .logo-container svg {
   width: 150px;
   height: 50px;
@@ -77,10 +78,29 @@ header {
   position: relative;
 }
 
-header svg {
-  fill: white;
-  width: 396px;
-  height: 60px;
+main img {
+  width: 100%;
+}
+
+.subscribe-imgs img {
+  width: 150px;
+}
+
+.sectionflex img {
+  width: 80px;
+  height: 80px;
+}
+
+.magazine-feature img {
+  height: 376px;
+}
+
+.magazine-article img {
+  height: 282px;
+}
+
+.debate-item img {
+  width: 60px;
 }
 
 header .date-container img {
@@ -91,6 +111,15 @@ header .date-container img {
   font-size: 18px;
 }
 
+h5 a {
+  font-weight: bolder;
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline #f72210;
+}
+
 .login-container a {
   text-decoration: none;
   text-transform: uppercase;
@@ -99,11 +128,6 @@ header .date-container img {
 
 .sectionflex {
   border-top: 1px solid #d9d9dd;
-}
-
-.sectionflex img {
-  width: 80px;
-  height: 80px;
 }
 
 figure {
@@ -131,9 +155,8 @@ figcaption {
 
 .main-nav:before {
   position: absolute;
-  top: 0px;
+  top: 0;
   right: 0;
-  content: "";
   display: block;
   width: 5%;
   background-color: #f72210;
@@ -156,6 +179,13 @@ figcaption {
   font-weight: bolder;
   border-top: 1px solid #f4f5f7;
   border-bottom: 1px solid #f4f5f7;
+}
+
+.category a {
+  padding: 0 7px;
+  color: #f72210;
+  text-decoration: none;
+  font-weight: bolder;
 }
 
 .trendtopic li {
@@ -202,20 +232,8 @@ main img {
   width: 100%;
 }
 
-.magazine-feature {
-  margin-bottom: 1%;
-}
-
-.magazine-feature img {
-  height: 376px;
-}
-
 .magazine-article {
   margin-top: 10%;
-}
-
-.magazine-article img {
-  height: 282px;
 }
 
 .category {
@@ -231,22 +249,7 @@ main img {
   margin-right: 7px;
 }
 
-.hidden {
-  display: none;
-}
-
-h5 a {
-  font-weight: bolder;
-}
-
-.category a {
-  padding: 0 7px;
-  color: #f72210;
-  text-decoration: none;
-  font-weight: bolder;
-}
-
-.login-container button:after {
+.login-container button::after {
   content: "";
   display: inline-block;
   width: 4px;
@@ -277,19 +280,20 @@ h5 a {
   text-transform: uppercase;
 }
 
+.footer-links li a {
+  margin-right: 8px;
+  color: #666;
+}
+
+footer a:hover {
+  text-decoration: none;
+}
+
 article.mini h3 a {
   color: rgba(3, 3, 3, 0.5);
   font-size: 16px;
   line-height: 19px;
-  font-weight: 700px;
-}
-
-article.mini h3 a:hover {
-  text-decoration: none;
-}
-
-.debate-item img {
-  width: 60px;
+  font-weight: 700;
 }
 
 #vs {
@@ -314,6 +318,11 @@ footer p {
   margin: 1% 3% 0% 0;
 }
 
+.footer-links li {
+  display: inline-block;
+  margin-right: 5px;
+}
+
 .socialicons ul li {
   font-size: 26px;
   padding: 8px;
@@ -324,32 +333,40 @@ footer p {
   display: inline;
 }
 
-footer a:hover {
-  text-decoration: none;
-}
-
 .editions ul li a {
   margin: 0 8px;
   color: #666;
 }
 
-.footer-links li a {
-  margin-right: 8px;
-  color: #666;
+.hidden {
+  display: none;
 }
 
-.footer-links li a:hover,
-.editions ul li a:hover {
-  margin-right: 8px;
-  color: black;
+.list-unstyled li a:hover,
+.trendtopic li a:hover {
+  color: hsl(359, 98%, 48%);
 }
 
 .red-headings > h3 {
   color: red;
 }
 
-.subscribe-imgs img {
-  width: 150px;
+article h3:hover {
+  text-decoration: underline #f72210;
+}
+
+.footer-links li a:hover {
+  margin-right: 8px;
+  color: black;
+}
+
+article.mini h3 a:hover {
+  text-decoration: none;
+}
+
+.editions ul li a:hover {
+  margin-right: 8px;
+  color: black;
 }
 
 .subscribe-imgs img:nth-child(2) {
@@ -378,11 +395,6 @@ footer a:hover {
 
 .news button {
   width: 150px;
-}
-
-.footer-links li {
-  display: inline-block;
-  margin-right: 5px;
 }
 
 .footer-links {
