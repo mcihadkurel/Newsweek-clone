@@ -159,7 +159,6 @@ a:hover {
 }
 
 figure {
-  display: flex;
   margin-top: 3%;
 }
 
@@ -304,11 +303,9 @@ article h3:hover {
   width: 4px;
   height: 9px;
   background-color: black;
-  -webkit-mask:
-    url(https://g.newsweek.com/www/images/icon-arrow-right.svg)
+  -webkit-mask: url(https://g.newsweek.com/www/images/icon-arrow-right.svg)
     center / contain no-repeat;
-  mask:
-    url(https://g.newsweek.com/www/images/icon-arrow-right.svg) center /
+  mask: url(https://g.newsweek.com/www/images/icon-arrow-right.svg) center /
     contain no-repeat;
   margin-left: 5px;
 }
@@ -421,6 +418,17 @@ article.mini h3 a:hover {
 
 .footer-links {
   padding: 0;
+}
+
+.morestory img {
+  float: left;
+  height: 100%;
+  width: auto;
+  margin-right: 8px;
+}
+
+.full-width {
+  width: 100%;
 }
 
 @media (min-width: 1200px) {
