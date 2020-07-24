@@ -163,14 +163,16 @@ a:hover {
 
 .sectionflex {
   border-top: 1px solid #d9d9dd;
+  display: flex;
 }
 
 figure {
   margin-top: 3%;
+  display: flex;
 }
 
 figcaption {
-  width: 80%;
+  width: 100%;
   margin-left: 3%;
 }
 
