@@ -125,7 +125,7 @@ main img {
 }
 
 .magazine-article img {
-  height: auto;
+  height: 100%;
 }
 
 .debate-item img {
@@ -286,7 +286,7 @@ article h3:hover {
 }
 
 .magazine-article {
-  margin-top: 10%;
+  margin-top: 18%;
 }
 
 .category {
