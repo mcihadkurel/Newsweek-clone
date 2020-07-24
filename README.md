@@ -1,57 +1,31 @@
-# Project Name
+# Newsweek Clone
 
-> One paragraph statement about the project.
+This project contains Twitter Bootstrap framework.
 
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+<img src="./images/projectSS.png" alt="Screenshot">git
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- Bootstrap grid system
+- Bootstrap positioning
+- Responsive media queries for all screen sizes
+- Semantic HTML
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live](https://raw.githack.com/mcihadkurel/Newsweek-clone/newsweek-feature/index.html)
 
+👤 **Author**
 
-## Getting Started
+- Github: [@mcihadkurel](https://github.com/mcihadkurel)
+- Twitter: [@mece_ka](https://twitter.com/mece_ka)
+- LinkedIn: [@muhammed](https://www.linkedin.com/in/muhammed-cihad-8187581a8/)
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+👤 **Author**
 
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@mohapakram](https://github.com/mohapakram)
+- Twitter: [@mohapakram](https://twitter.com/mohapakram)
+- LinkedIn: [@mohap](https://www.linkedin.com/in/mohab-akram-667093131/)
 
 ## 🤝 Contributing
 
@@ -71,4 +45,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project has no license

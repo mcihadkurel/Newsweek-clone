@@ -1,0 +1,1778 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+      integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Newsweek - News</title>
+  </head>
+  <body>
+    <div class="container-xl p-0">
+      <div class="bg-white">
+        <nav id="mobile-nav" class="d-lg-none">
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="logo-container">
+              <svg
+                version="1.1"
+                id="Layer_1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                x="0px"
+                y="0px"
+                viewBox="0 0 395.6 60"
+                style="enable-background: new 0 0 395.6 60;"
+                xml:space="preserve"
+              >
+                <g>
+                  <path
+                    class="st0"
+                    d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7"
+                  ></path>
+                </g>
+              </svg>
+            </div>
+            <div class="login-container d-flex align-items-center">
+              <a href="#" class="d-none d-md-block mx-3 text-white">login</a>
+              <i class="login-icon d-md-none fas fa-user"></i>
+              <button>subscribe</button>
+              <i class="login-icon fas fa-bars"></i>
+            </div>
+          </div>
+        </nav>
+        <header class="text-white d-none d-lg-block">
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="date-container">
+              <i class="fas fa-sun"></i>
+              <span class="font-weight-bold">
+                Fair 30°Alexandria, EG
+                <img
+                  src="https://g.newsweek.com/img/weather/ic-white-arrow.png"
+                  alt="container image"
+                />
+              </span>
+              <div class="date mt-2">
+                <span>
+                  Tue, Jul 21, 2020
+                </span>
+              </div>
+            </div>
+            <div class="logo-container">
+              <svg version="1.1">
+                <g>
+                  <path
+                    class="st0"
+                    d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7"
+                  ></path>
+                </g>
+              </svg>
+            </div>
+            <div class="login-container">
+              <a href="#" class="mx-3 text-white">login</a>
+              <button>subscribe</button>
+            </div>
+          </div>
+        </header>
+
+        <!-- Navigation -->
+        <nav class="bg-white d-none d-lg-block">
+          <ul
+            class="main-nav d-grid align-items-center justify-content-between bg-white"
+          >
+            <li><a href="#">U.S</a></li>
+            <li><a href="#"> World</a></li>
+            <li><a href="#">Business</a></li>
+            <li><a href="#">Tech</a></li>
+            <li><a href="">Culture</a></li>
+            <li><a href="">Newsgeek</a></li>
+            <li><a href="">Sports</a></li>
+            <li><a href="">Health</a></li>
+            <li><a href="">Debate</a></li>
+            <li><a href=""> Vantage</a></li>
+            <li><a href="">Weather</a></li>
+            <li class="navsearch">
+              <span>Search</span><i class="fas fa-search"></i>
+            </li>
+          </ul>
+        </nav>
+
+        <nav class="d-none d-lg-block">
+          <ul class="trendtopic d-flex justify-content-start py-3 text-dark">
+            <li>
+              TRENDİNG
+            </li>
+            <li><a href="">DONALD TRUMP</a></li>
+            <li><a href="">JOE BİDEN</a></li>
+            <li><a href="">CHİNA</a></li>
+            <li><a href="">CORONAVİRUS</a></li>
+            <li><a href="">2020 ELECTİON</a></li>
+          </ul>
+        </nav>
+
+        <!-- Main Content -->
+        <main>
+          <section class="col-12">
+            <h2 class="hidden">.</h2>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-3 order-1 order-md-0">
+                  <section class="featured-section-container mx-auto px-3">
+                    <h5 class="section-heading">FEATURED STORİES</h5>
+                    <div class="featured-inner-container">
+                      <article>
+                        <div class="image-container">
+                          <div class="article-category">
+                            <a href="#">WORLD</a>
+                          </div>
+                          <a href="#"
+                            ><img
+                              src="./images/ftimg1.webp"
+                              class="img-fluid"
+                              alt=""
+                          /></a>
+                        </div>
+                        <h3>
+                          'Another Trillion' in New Stimulus for Kids, Jobs,
+                          Vaccines, Mnuchin Says
+                        </h3>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing
+                          elit. Dolorem minima dolorum recusandae consectetur
+                          fugiat sit magnam non iusto expedita cupiditate!
+                        </p>
+                      </article>
+                      <article>
+                        <div class="image-container">
+                          <div class="article-category">
+                            <a href="#">U.S</a>
+                          </div>
+                          <a href="#"
+                            ><img
+                              src="./images/ftimg2.webp"
+                              class="img-fluid"
+                              alt="world category"
+                          /></a>
+                        </div>
+                        <h3>
+                          Biden Says He's 'Putting the Kremlin on Notice' For
+                          Election Interference
+                        </h3>
+                        <p>
+                          Lorem ipsum, dolor sit amet consectetur adipisicing
+                          elit. Vel esse incidunt eos dolore aut a adipisci. Est
+                          tempore debitis tenetur!
+                        </p>
+                      </article>
+                      <article>
+                        <div class="image-container">
+                          <div class="article-category">
+                            <a href="#">TECH & SCİENCE</a>
+                          </div>
+                          <a href="#"
+                            ><img
+                              src="./images/ftimg3.png"
+                              class="img-fluid"
+                              alt=""
+                          /></a>
+                        </div>
+                        <h3>
+                          As Trump Falls in Polls, Senate GOP Hit Fundraising
+                          Record to Hold Majority
+                        </h3>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing
+                          elit. Dolorem minima dolorum recusandae consectetur
+                          fugiat sit magnam non iusto expedita cupiditate!
+                        </p>
+                      </article>
+                      <article>
+                        <div class="image-container">
+                          <div class="article-category">
+                            <a href="#">TECH & SCİENCE</a>
+                          </div>
+                          <a href="#"
+                            ><img
+                              src="./images/ftimg4.webp"
+                              class="img-fluid"
+                              alt="fluid"
+                          /></a>
+                        </div>
+                        <h3>
+                          As Trump Falls in Polls, Senate GOP Hit Fundraising
+                          Record to Hold Majority
+                        </h3>
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur, adipisicing
+                          elit. Inventore enim commodi harum. Consequatur earum,
+                          asperiores pariatur iure eveniet quibusdam nisi.
+                        </p>
+                      </article>
+                      <article>
+                        <div class="image-container">
+                          <div class="article-category">
+                            <a href="#">MY TURN</a>
+                          </div>
+                          <a href="#"
+                            ><img
+                              src="./images/ftimg5.webp"
+                              class="img-fluid"
+                              alt=""
+                          /></a>
+                        </div>
+                        <h3>
+                          St. Louis Couple Charged for Waving Firearms at BLM
+                          Protesters
+                        </h3>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing
+                          elit. Temporibus unde error ut! Ipsa iusto recusandae
+                          debitis maiores sint dolores accusantium.
+                        </p>
+                      </article>
+                    </div>
+                  </section>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-5 order-0 order-md-1">
+                  <section>
+                    <h5 class="section-heading">TOP STORY</h5>
+                    <article>
+                      <div class="image-container">
+                        <div class="article-category">
+                          <a href="#">U.S</a>
+                        </div>
+                        <a href="#"
+                          ><img
+                            src="./images/ftimg2.webp"
+                            class="img-fluid"
+                            alt="Biden"
+                        /></a>
+                      </div>
+                      <h3>
+                        Biden Says He's 'Putting the Kremlin on Notice' For
+                        Election Interference
+                      </h3>
+                      <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Vel esse incidunt eos dolore aut a adipisci. Est tempore
+                        debitis tenetur!
+                      </p>
+                    </article>
+                    <section>
+                      <h5 class="section-heading d-block">my turn</h5>
+                      <div class="row">
+                        <div class="col col-12 col-md-4 col-lg-4">
+                          <article class="mini">
+                            <a href=""
+                              ><img
+                                src="https://d.newsweek.com/en/full/1611122/chris-dickey.jpg?w=397&h=397&f=6692bdd4f599cad7818678436243fcdc"
+                                class="img-fluid"
+                                alt=""
+                            /></a>
+                            <h3>
+                              <a href="#">
+                                Biden Says He's 'Putting the Kremlin on Notice'
+                                For Election Interference
+                              </a>
+                            </h3>
+                          </article>
+                        </div>
+                        <div class="col col-12 col-md-4 col-lg-4">
+                          <article class="mini">
+                            <a href=""
+                              ><img
+                                src="https://d.newsweek.com/en/full/1610596/polyamory-non-monogamy-relationships.jpg?w=397&h=397&f=53c532c6ddfa0c07a8ed0c6da0b073b0"
+                                class="img-fluid"
+                                alt=""
+                            /></a>
+                            <h3>
+                              <a href="#">
+                                Biden Says He's 'Putting the Kremlin on Notice'
+                                For Election Interference
+                              </a>
+                            </h3>
+                          </article>
+                        </div>
+                        <div class="col col-12 col-md-4 col-lg-4">
+                          <article class="mini">
+                            <a href=""
+                              ><img
+                                src="https://d.newsweek.com/en/full/1610736/california-gyms-coronavirus-pandemic-santa-clara-county.jpg?w=397&h=397&f=c6afcba398d6190091393adbf8efe3e4"
+                                class="img-fluid"
+                                alt=""
+                            /></a>
+                            <h3>
+                              <a href="#">
+                                Biden Says He's 'Putting the Kremlin on Notice'
+                                For Election Interference
+                              </a>
+                            </h3>
+                          </article>
+                        </div>
+
+                        <section class="px-3">
+                          <h5 class="section-heading">CULTURE & TRAVEL</h5>
+                          <div class="row">
+                            <div class="col col-12 col-md-4 col-lg-4">
+                              <article class="mini">
+                                <a href=""
+                                  ><img
+                                    src="https://d.newsweek.com/en/full/1609980/cyrus-kabiru-glasses.jpg?w=397&h=397&f=6ca5150975828502bad6d52d651e878f"
+                                    class="img-fluid"
+                                    alt=""
+                                /></a>
+                                <h3>
+                                  <a href="#">
+                                    Biden Says He's 'Putting the Kremlin on
+                                    Notice' For Election Interference
+                                  </a>
+                                </h3>
+                              </article>
+                            </div>
+                            <div class="col col-12 col-md-4 col-lg-4">
+                              <article class="mini">
+                                <a href=""
+                                  ><img
+                                    src="https://d.newsweek.com/en/full/1602229/sheila-ruffin.jpg?w=397&h=397&f=b6545d766d9cc6cb6c3787e81dc53cff"
+                                    class="img-fluid"
+                                    alt=""
+                                /></a>
+                                <h3>
+                                  <a href="#">
+                                    Biden Says He's 'Putting the Kremlin on
+                                    Notice' For Election Interference
+                                  </a>
+                                </h3>
+                              </article>
+                            </div>
+                            <div class="col col-12 col-md-4 col-lg-4">
+                              <article class="mini">
+                                <a href=""
+                                  ><img
+                                    src="https://d.newsweek.com/en/full/1609128/aruba.jpg?w=397&h=397&f=26b76630a8789fc45533157263d28b5a"
+                                    class="img-fluid"
+                                    alt=""
+                                /></a>
+                                <h3>
+                                  <a href="#">
+                                    Biden Says He's 'Putting the Kremlin on
+                                    Notice' For Election Interference
+                                  </a>
+                                </h3>
+                              </article>
+                            </div>
+                          </div>
+                        </section>
+                        <section class="px-3">
+                          <h5 class="section-heading d-block">more stories</h5>
+                          <div class="morestory">
+                            <div class="sectionflex">
+                              <figure>
+                                <img
+                                  src="https://d.newsweek.com/en/full/1611082/nih-director-francis-collins-trump.jpg?w=95&h=95&f=dc827697d2d0d2f51b4fa9074cf0d7a0"
+                                  alt=""
+                                />
+                                <figcaption>
+                                  <a href=""
+                                    ><strong
+                                      >NIH Director Backs Fauci: It's 'Bizarre'
+                                      Mask-Wearing Is Now Political</strong
+                                    ></a
+                                  >
+                                  <p>
+                                    NIH Director Francis Collins said he's baffled
+                                    not at how, but at why, the country's
+                                    discourse on wearing masks to help curb
+                                    coronavirus infections has become a political
+                                  </p>
+                                </figcaption>
+                              </figure>
+                            </div>
+                            <div class="sectionflex">
+                              <figure>
+                                <img
+                                  src="https://d.newsweek.com/en/full/1611358/mike-pence-donald-trump-2016.jpg?w=95&h=95&f=afc8dcf53e9543d9ab472cf45a115604"
+                                  alt=""
+                                />
+                                <figcaption>
+                                  <a href=""
+                                    ><strong
+                                      >NIH Director Backs Fauci: It's 'Bizarre'
+                                      Mask-Wearing Is Now Political</strong
+                                    ></a
+                                  >
+                                  <p>
+                                    NIH Director Francis Collins said he's baffled
+                                    not at how, but at why, the country's
+                                    discourse on wearing masks to help curb
+                                    coronavirus infections has become a political
+                                  </p>
+                                </figcaption>
+                              </figure>
+                            </div>
+                            <div class="sectionflex">
+                              <figure>
+                                <img
+                                  src="https://d.newsweek.com/en/full/1611456/missouri-governor-mike-parson-trump.jpg?w=95&h=95&f=c8bda28baa01871007ca94b6e57108ea"
+                                  alt=""
+                                />
+                                <figcaption>
+                                  <a href=""
+                                    ><strong
+                                      >NIH Director Backs Fauci: It's 'Bizarre'
+                                      Mask-Wearing Is Now Political</strong
+                                    ></a
+                                  >
+                                  <p>
+                                    NIH Director Francis Collins said he's baffled
+                                    not at how, but at why, the country's
+                                    discourse on wearing masks to help curb
+                                    coronavirus infections has become a political
+                                  </p>
+                                </figcaption>
+                              </figure>
+                            </div>
+                            <div class="sectionflex">
+                              <figure>
+                                <img
+                                  src="https://d.newsweek.com/en/full/1611466/john-lewis-memorial-georgia.jpg?w=95&h=95&f=d1a98569322d52957858490c61b9f1ce"
+                                  alt=""
+                                />
+                                <figcaption>
+                                  <a href=""
+                                    ><strong
+                                      >NIH Director Backs Fauci: It's 'Bizarre'
+                                      Mask-Wearing Is Now Political</strong
+                                    ></a
+                                  >
+                                  <p>
+                                    NIH Director Francis Collins said he's baffled
+                                    not at how, but at why, the country's
+                                    discourse on wearing masks to help curb
+                                    coronavirus infections has become a political
+                                  </p>
+                                </figcaption>
+                              </figure>
+                            </div>
+                            <div class="sectionflex">
+                              <figure>
+                                <img
+                                  src="https://d.newsweek.com/en/full/1611277/us-marshal-judge-esther-salas-son-epstein.jpg?w=95&h=95&f=297b11ed23e791ffaafe64ae1249802f"
+                                  alt=""
+                                />
+                                <figcaption>
+                                  <a href=""
+                                    ><strong
+                                      >NIH Director Backs Fauci: It's 'Bizarre'
+                                      Mask-Wearing Is Now Political</strong
+                                    ></a
+                                  >
+                                  <p>
+                                    NIH Director Francis Collins said he's baffled
+                                    not at how, but at why, the country's
+                                    discourse on wearing masks to help curb
+                                    coronavirus infections has become a political
+                                  </p>
+                                </figcaption>
+                              </figure>
+                            </div>
+                            <div class="sectionflex">
+                              <figure>
+                                <img
+                                  src="https://d.newsweek.com/en/full/1611205/portland.jpg?w=95&h=95&f=ea39a490b759cd4380a34c29812e6ca5"
+                                  alt=""
+                                />
+                                <figcaption>
+                                  <a href=""
+                                    ><strong
+                                      >NIH Director Backs Fauci: It's 'Bizarre'
+                                      Mask-Wearing Is Now Political</strong
+                                    ></a
+                                  >
+                                  <p>
+                                    NIH Director Francis Collins said he's baffled
+                                    not at how, but at why, the country's
+                                    discourse on wearing masks to help curb
+                                    coronavirus infections has become a political
+                                  </p>
+                                </figcaption>
+                              </figure>
+                            </div>
+                          </div>
+                        </section>
+                      </div>
+                    </section>
+                  </section>
+                </div>
+                <div class="col-md-12 order-2 col-lg-4">
+                  <h5 class="section-heading">the debate</h5>
+                  <div class="debate-section text-center">
+                    <div class="debate-item border-top border-bottom">
+                      <div class="d-flex my-3 align-items-center">
+                        <img
+                          src="https://d.newsweek.com/en/full/1603199/joel-l-daniels.png?w=150&h=150&f=d12a7dd02182bbc8bcc9cade519ce978"
+                          alt="Joel L. Daniels"
+                          class="m-1"
+                        />
+                        <div class="mx-1">
+                          <div>
+                            <a href="#"
+                              ><strong>America Was Conceived in Racism</strong></a
+                            >
+                          </div>
+                          <div>
+                            <span
+                              >BY
+                              <strong
+                                ><a href="#">JOEL L. DANIELS</a></strong
+                              ></span
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <span
+                      id="vs"
+                      class="p-2 rounded-circle text-white font-weight-bold"
+                      >VS</span
+                    >
+                    <div class="debate-item border-top border-bottom">
+                      <div
+                        class="d-flex my-3 align-items-center justify-content-end"
+                      >
+                        <div class="mx-1">
+                          <div>
+                            <a href="#"
+                              ><strong>America Was Conceived in Racism</strong></a
+                            >
+                          </div>
+                          <div>
+                            <span
+                              >BY
+                              <strong
+                                ><a href="#">JOEL L. DANIELS</a></strong
+                              ></span
+                            >
+                          </div>
+                      
+                      </div>
+                      <img src="https://d.newsweek.com/en/full/1609916/ryan-p-williams.png?w=150&h=150&f=63bb034a4b5428549153568d58e1069d"
+                        alt="Joel L. Daniels" class="m-1" />
+                    </div>
+                  </div>
+                  <section class="openion-section mt-4">
+                    <h5 class="section-heading">openion</h5>
+                    <ul>
+                      <li>
+                        <div class="debate-item border-bottom">
+                          <div class="d-flex my-3 align-items-center">
+                            <img
+                              src="https://d.newsweek.com/en/full/1609916/ryan-p-williams.png?w=150&h=150&f=63bb034a4b5428549153568d58e1069d"
+                              alt="Joel L. Daniels"
+                              class="m-1"
+                            />
+                            <div class="mx-1">
+                              <div>
+                                <a href="#"
+                                  ><strong
+                                    >America Was Conceived in Racism</strong
+                                  ></a
+                                >
+                              </div>
+                              <div>
+                                <span
+                                  >BY
+                                  <strong
+                                    ><a href="#">JOEL L. DANIELS</a></strong
+                                  ></span
+                                >
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="debate-item border-bottom">
+                          <div class="d-flex my-3 align-items-center">
+                            <img
+                              src="https://d.newsweek.com/en/full/1609916/ryan-p-williams.png?w=150&h=150&f=63bb034a4b5428549153568d58e1069d"
+                              alt="Joel L. Daniels"
+                              class="m-1"
+                            />
+                            <div class="mx-1">
+                              <div>
+                                <a href="#"
+                                  ><strong
+                                    >America Was Conceived in Racism</strong
+                                  ></a
+                                >
+                              </div>
+                              <div>
+                                <span
+                                  >BY
+                                  <strong
+                                    ><a href="#">JOEL L. DANIELS</a></strong
+                                  ></span
+                                >
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="debate-item border-bottom">
+                          <div class="d-flex my-3 align-items-center">
+                            <img
+                              src="https://d.newsweek.com/en/full/1609916/ryan-p-williams.png?w=150&h=150&f=63bb034a4b5428549153568d58e1069d"
+                              alt="Joel L. Daniels"
+                              class="m-1"
+                            />
+                            <div class="mx-1">
+                              <div>
+                                <a href="#"
+                                  ><strong
+                                    >America Was Conceived in Racism</strong
+                                  ></a
+                                >
+                              </div>
+                              <div>
+                                <span
+                                  >BY
+                                  <strong
+                                    ><a href="#">JOEL L. DANIELS</a></strong
+                                  ></span
+                                >
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="debate-item border-bottom">
+                          <div class="d-flex my-3 align-items-center">
+                            <img
+                              src="https://d.newsweek.com/en/full/1609916/ryan-p-williams.png?w=150&h=150&f=63bb034a4b5428549153568d58e1069d"
+                              alt="Joel L. Daniels"
+                              class="m-1"
+                            />
+                            <div class="mx-1">
+                              <div>
+                                <a href="#"
+                                  ><strong
+                                    >America Was Conceived in Racism</strong
+                                  ></a
+                                >
+                              </div>
+                              <div>
+                                <span
+                                  >BY
+                                  <strong
+                                    ><a href="#">JOEL L. DANIELS</a></strong
+                                  ></span
+                                >
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="debate-item border-bottom">
+                          <div class="d-flex my-3 align-items-center">
+                            <img
+                              src="https://d.newsweek.com/en/full/1609916/ryan-p-williams.png?w=150&h=150&f=63bb034a4b5428549153568d58e1069d"
+                              alt="Joel L. Daniels"
+                              class="m-1"
+                            />
+                            <div class="mx-1">
+                              <div>
+                                <a href="#"
+                                  ><strong
+                                    >America Was Conceived in Racism</strong
+                                  ></a
+                                >
+                              </div>
+                              <div>
+                                <span
+                                  >BY
+                                  <strong
+                                    ><a href="#">JOEL L. DANIELS</a></strong
+                                  ></span
+                                >
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="debate-item border-bottom">
+                          <div class="d-flex my-3 align-items-center">
+                            <img
+                              src="https://d.newsweek.com/en/full/1609916/ryan-p-williams.png?w=150&h=150&f=63bb034a4b5428549153568d58e1069d"
+                              alt="Joel L. Daniels"
+                              class="m-1"
+                            />
+                            <div class="mx-1">
+                              <div>
+                                <a href="#"
+                                  ><strong
+                                    >America Was Conceived in Racism</strong
+                                  ></a
+                                >
+                              </div>
+                              <div>
+                                <span
+                                  >BY
+                                  <strong
+                                    ><a href="#">JOEL L. DANIELS</a></strong
+                                  ></span
+                                >
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </section>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="magazine px-3 mx-auto">
+            <h3 class="text-center">IN THE MAGAZINE</h3>
+            <div class="border-top">
+            <div class="row">
+            <div class="col-sm-12 col-md-3">
+              <div class="image-container">
+                <div class="article-category">
+                  <a href="#">JULY 24 ISSUE</a>
+                </div>
+                <div class="magazine-feature mt-3">
+                  <a href="#"
+                    ><img
+                      src="https://d.newsweek.com/en/full/1610195/cover-july-24-2020.jpg?w=360&h=480&q=90&f=081678b318d01f44507b435d6f51963c"
+                      class="py-0"
+                      alt=""
+                  /></a>
+                </div>
+              </div>
+              <a href="#" class="allfeatures"
+                >SEE ALL FEATURES<i
+                  class="fa fa-chevron-right mx-2"
+                  aria-hidden="true"
+                ></i
+              ></a>
+            </div>
+            <div class="col-sm-12 col-md-3">
+              <div class="magazine-article">
+                <a href=""
+                  ><img
+                    src="https://d.newsweek.com/en/full/1610816/fea-kushner.jpg?w=466&h=311&q=90&f=f9b24699b13b622e46afad59b7a07bfa"
+                    alt=""
+                /></a>
+                <div class="category">
+                  <span>PERİSCOPE</span><a href="">CULTURE</a>
+                </div>
+                <h5>
+                  <a href=""
+                    >Exclusive: Kushner Gets Candid On Troubled Trump
+                    Campaign, Mideast, More</a
+                  >
+                </h5>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-3">
+              <div class="magazine-article">
+                <a href=""
+                  ><img
+                    src="https://d.newsweek.com/en/full/1607718/per-economy-01.jpg?w=466&h=311&q=90&f=aceffcfa363625adfdcedf71860ce45c"
+                    alt=""
+                /></a>
+                <div class="category">
+                  <span>PERİSCOPE</span><a href="">CULTURE</a>
+                </div>
+                <h5>
+                  <a href=""
+                    >4 Smart Money Moves to Make As the Economy Starts to
+                    Recover</a
+                  >
+                </h5>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-3">
+              <div class="magazine-article ">
+                <a href=""
+                  ><img
+                    src="https://d.newsweek.com/en/full/1607679/i-pastafari-flying-spaghetti-monster-story.jpg?w=466&h=311&l=49&t=54&q=90&f=80fb1dc9ebc92948a456a1eafe207291"
+                    alt=""
+                /></a>
+                <div class="category">
+                  <span>PERİSCOPE</span><a href="">CULTURE</a>
+                </div>
+                <h5>
+                  <a href=""
+                    >'I, Pastafari' Doc Chronicles the Church of the Flying
+                    Spaghetti Monster
+                  </a>
+                </h5>
+              </div>
+            </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12 col-md-3">
+                <div class="magazine-article">
+                  <a href=""
+                    ><img
+                      src="https://d.newsweek.com/en/full/1607615/f-scott-fitzgerald-author-great.jpg?w=466&h=311&q=90&f=66b0462eae1e0d219546ab769f1df01d"
+                      alt=""
+                  /></a>
+                  <div class="category">
+                    <span>PERİSCOPE</span><a href="">CULTURE</a>
+                  </div>
+                  <h5>
+                    <a href="#">Liberalism Has Failed</a>
+                  </h5>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-3">
+                <div class="magazine-article">
+                  <a href=""
+                    ><img
+                      src="https://d.newsweek.com/en/full/1610210/fea-secondwave.jpg?w=466&h=311&l=51&t=44&q=90&f=63abb2f7ed334c51fb997e04c688737b"
+                      alt=""
+                  /></a>
+                  <div class="category">
+                    <span>PERİSCOPE</span><a href="">CULTURE</a>
+                  </div>
+                  <h5>
+                    <a href=""
+                      >A Second Wave Could Mean Better Survival Rates for
+                      Coronavirus Patients</a
+                    >
+                  </h5>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-3">
+                <div class="magazine-article">
+                  <a href=""
+                    ><img
+                      src="https://d.newsweek.com/en/full/1610213/per-trump.jpg?w=466&h=311&l=50&t=46&q=90&f=4ac1b26567fbda17104a815e0df210a0"
+                      alt=""
+                  /></a>
+                  <div class="category">
+                    <span>PERİSCOPE</span><a href="">CULTURE</a>
+                  </div>
+                  <h5>
+                    <a href=""
+                      >How Trump Could Lose the Election—And Still Remain
+                      President</a
+                    >
+                  </h5>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-3">
+                <div class="magazine-article">
+                  <a href=""
+                    ><img
+                      src="https://d.newsweek.com/en/full/1609107/cul-ps-bialik.jpg?w=466&h=311&l=45&t=32&q=90&f=818c10d036f92d896dc83c874a28a257"
+                      alt=""
+                  /></a>
+                  <div class="category">
+                    <span>PERİSCOPE</span><a href="">CULTURE</a>
+                  </div>
+                  <h5>
+                    <a href=""
+                      >Big Bang Theory's Mayim Bialik Has Many Titles, Now One
+                      is Game Show Host
+                    </a>
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          </section>
+          <section class="editorspick px-3 mx-auto">
+            <h3 class="text-center">EDITOR'S PICK</h3>
+            <div class="border-top py-4">
+              <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                  <article>
+                    <div class="image-container">
+                      <div class="article-category">
+                        <a href="#">WORLD</a>
+                      </div>
+                      <div class="image">
+                        <a href="#"
+                          ><img
+                            src="https://d.newsweek.com/en/full/1611460/steven-mnuchin.jpg?w=397&h=295&f=6e15076178835048d7edfd7327ade82f"
+                            alt=""
+                        /></a>
+                      </div>
+                    </div>
+                    <h3>
+                      'Another Trillion' in New Stimulus for Kids, Jobs,
+                      Vaccines, Mnuchin Says
+                    </h3>
+                    <p>
+                      Republicans also want to include tax incentives and
+                      liability protections for businesses so they can continue
+                      on the path to reopening, Treasury Secretary Steven
+                      Mnuchin said.
+                    </p>
+                  </article>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                  <article>
+                    <div class="image-container">
+                      <div class="article-category">
+                        <a href="#">WORLD</a>
+                      </div>
+                      <div class="image">
+                        <a href="#"
+                          ><img
+                            src="https://d.newsweek.com/en/full/1611247/holding-hands-patient-stock-getty.jpg?w=397&h=295&f=524037a277aa0eb21d9c383a26ca4850"
+                            alt=""
+                        /></a>
+                      </div>
+                    </div>
+                    <h3>
+                      Here's Why 300,000 U.S. Immigrants May Not Be Able to Vote
+                      in November
+                    </h3>
+                    <p>
+                      Thousands of immigrants on the path to citizenship had to
+                      postpone the in-person interviews they are required to
+                      complete with immigration officials due to closures caused
+                      by the pandemic.
+                    </p>
+                  </article>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                  <article>
+                    <div class="image-container">
+                      <div class="article-category">
+                        <a href="#">WORLD</a>
+                      </div>
+                      <div class="image">
+                        <a href="#"
+                          ><img
+                            src="https://d.newsweek.com/en/full/1610982/mary-trump-book.jpg?w=397&h=295&f=066ba8002c454996a64ed55194a63be2"
+                            alt=""
+                        /></a>
+                      </div>
+                    </div>
+                    <h3>
+                      Racism Linked to Memory Problems in Study on African
+                      American Women
+                    </h3>
+                    <p>
+                      Professor Lynn Rosenberg of Boston University School of
+                      Public Health said: "Our work suggests that the chronic
+                      stress associated with racial discrimination may
+                      contribute to racial disparities in cognition and
+                      Alzheimer's disease."
+                    </p>
+                  </article>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                  <article>
+                    <div class="image-container">
+                      <div class="article-category">
+                        <a href="#">WORLD</a>
+                      </div>
+                      <div class="image">
+                        <a href="#"
+                          ><img
+                            src="https://d.newsweek.com/en/full/1610970/wang-yi-sergey-lavrov.webp?w=397&h=295&f=f465ef490f2db44baf6148e42c0f1b4a"
+                            alt=""
+                        /></a>
+                      </div>
+                    </div>
+                    <h3>
+                      Trump Falsely Claims Biden Wants to Defund Police in Fox
+                      News Interview
+                    </h3>
+                    <p>
+                      During an hour-long interview due to air on Sunday, the
+                      president was quickly rebuffed by the interviewer.
+                    </p>
+                  </article>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12 col-md-6 col-lg-3">
+                <article>
+                  <div class="image-container">
+                    <div class="article-category">
+                      <a href="#">WORLD</a>
+                    </div>
+                    <div class="image">
+                      <a href="#"
+                        ><img
+                          src="https://d.newsweek.com/en/full/1611422/naturalization-ceremony.jpg?w=397&h=295&f=a392bf91b1651de068181d436eebb2c9"
+                          alt=""
+                      /></a>
+                    </div>
+                  </div>
+                  <h3>
+                    Niece Says Trump Calling Her a 'Mess' Is an Attack He Hurls
+                    Toward Women
+                  </h3>
+                  <p>
+                    President Donald Trump's niece spoke out after he called her
+                    a "mess" on Twitter, suggesting the word is one the
+                    president uses when speaking about women.
+                  </p>
+                </article>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3">
+                <article>
+                  <div class="image-container">
+                    <div class="article-category">
+                      <a href="#">WORLD</a>
+                    </div>
+                    <div class="image">
+                      <a href="#"
+                        ><img
+                          src="https://d.newsweek.com/en/full/1610994/john-lewis.jpg?w=397&h=295&l=51&t=43&f=9937a1cfcfcdb2b3c02499e2860d0a68"
+                          alt=""
+                      /></a>
+                    </div>
+                  </div>
+                  <h3>
+                    Fauci Says It's 'Beyond My Comprehension' Why Navarro Wrote
+                    Critical Op-Ed
+                  </h3>
+                  <p>
+                    Trump's top trade adviser criticised Fauci in a USA Today
+                    article.
+                  </p>
+                </article>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3">
+                <article>
+                  <div class="image-container">
+                    <div class="article-category">
+                      <a href="#">WORLD</a>
+                    </div>
+                    <div class="image">
+                      <a href="#"
+                        ><img
+                          src="https://d.newsweek.com/en/full/1610973/anthony-fauci-getty.jpg?w=397&h=295&f=407c9ca5cd7af427ddbfe32915036112"
+                          alt=""
+                      /></a>
+                    </div>
+                  </div>
+                  <h3>
+                    Chinese, Russian Foreign Ministers Agree: America Has 'Lost
+                    Its Mind'
+                  </h3>
+                  <p>
+                    The top Chinese and Russian diplomats spoke over the phone
+                    Friday about concerns that President Donald Trump's "America
+                    first" policy has tarnished the country's international
+                    credibility.
+                  </p>
+                </article>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3">
+                <article>
+                  <div class="image-container">
+                    <div class="article-category">
+                      <a href="#">WORLD</a>
+                    </div>
+                    <div class="image">
+                      <a href="#"
+                        ><img
+                          src="https://d.newsweek.com/en/full/1610965/president-donald-trump-getty-white-house.jpg?w=397&h=295&f=d088bc221566e969902e69cdbd406f21"
+                          alt=""
+                      /></a>
+                    </div>
+                  </div>
+                  <h3>
+                    McConnell's Remembrance of John Lewis Prompts Criticism Over
+                    Stalled Bill
+                  </h3>
+                  <p>
+                    John Lewis played an integral part in the passage of the
+                    Voting Rights Act in 1965.
+                  </p>
+                </article>
+              </div>
+            </div>
+          </section>
+          <section class="world red-headings border-top mx-auto px-3">
+            <h3 class="font-weight-bold">U.S.</h3>
+            <div class="row">
+              <div class="col-sm-12 col-md">
+                <a href="#"
+                  ><img
+                    src="https://d.newsweek.com/en/full/1612046/joe-biden.jpg?w=397&h=265&f=c15510c341f98780aa6202533f571326"
+                    alt=""
+                /></a>
+                <a href=""
+                  ><h3>
+                    Biden Says Gretchen Whitmer Is Still on VP List, Despite
+                    Earlier Reports
+                  </h3></a
+                >
+              </div>
+              <div class="col-sm-12 col-md">
+                <a href="#"
+                  ><img
+                    src="https://d.newsweek.com/en/full/1612036/kanye-west.jpg?w=397&h=265&f=b67ce2ed2335c8425fbb4896c5f3004c"
+                    alt=""
+                /></a>
+                <a href=""
+                  ><h3>
+                    Kanye West Questions if All Black People Must Vote for Biden
+                  </h3></a
+                >
+              </div>
+              <div class="col-sm-12 col-md">
+                <div class="sectionflex">
+                  <figure>
+                    <img
+                      src="https://d.newsweek.com/en/full/1612035/trump-tulsa-rally.jpg?w=397&h=265&f=5b85089cfaf5e4b0c3621236a6927757"
+                      alt=""
+                    />
+                    <figcaption>
+                      <a href=""
+                        ><strong
+                          >Trump Reelection Expenses Already Near $1 Billion,
+                          $2M on Tulsa Rally Alone</strong
+                        ></a
+                      >
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="sectionflex">
+                  <figure>
+                    <img
+                      src="https://d.newsweek.com/en/full/1612006/tiger-king-zoo-animal-abuse-usda-investigation.jpg?w=95&h=95&f=0f2fd91ac9ffa799eea58ff39f3be87f"
+                      alt=""
+                    />
+                    <figcaption>
+                      <a href=""
+                        ><strong
+                          >USDA Finds Numerous Starved and Ailing Animals at
+                          'Tiger King' Zoo</strong
+                        ></a
+                      >
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="sectionflex">
+                  <figure>
+                    <img
+                      src="https://d.newsweek.com/en/full/1612019/jeff-merkley.jpg?w=95&h=95&f=b3db89a75083f642ec6e895cd3428c24"
+                      alt=""
+                    />
+                    <figcaption>
+                      <a href=""
+                        ><strong
+                          >On Senate Floor, Oregon Senator Demands End to
+                          'Trump's Secret Police'</strong
+                        ></a
+                      >
+                    </figcaption>
+                  </figure>
+                </div>
+              </div>
+            </div>
+            <section class="red-headings border-top my-4">
+              <h3 class="font-weight-bold">World</h3>
+              <div class="row">
+                <div class="col-sm-12 col-md">
+                  <a href="#"
+                    ><img
+                      src="https://d.newsweek.com/en/full/1611753/mike-pompeo.jpg?w=397&h=265&f=efa7d69a1a6ef492be9395d8f43e4234"
+                      alt=""
+                  /></a>
+
+                  <a href="">
+                    <h3>
+                      Biden Says Gretchen Whitmer Is Still on VP List, Despite
+                      Earlier Reports
+                    </h3>
+                  </a>
+                </div>
+                <div class="col-sm-12 col-md">
+                  <a href="#"
+                    ><img
+                      src="https://d.newsweek.com/en/full/1611646/president-andres-manuel-lopez-obrador.jpg?w=397&h=265&f=2218e37a5c845c0fd45e1355b9ebf565"
+                      alt=""
+                  /></a>
+
+                  <a href="">
+                    <h3>
+                      Kanye West Questions if All Black People Must Vote for
+                      Biden
+                    </h3>
+                  </a>
+                </div>
+                <div class="col-sm-12 col-md">
+                  <div class="sectionflex">
+                    <figure>
+                      <img
+                        src="https://d.newsweek.com/en/full/1612035/trump-tulsa-rally.jpg?w=397&h=265&f=5b85089cfaf5e4b0c3621236a6927757"
+                        alt=""
+                      />
+                      <figcaption>
+                        <a href=""
+                          ><strong
+                            >Trump Reelection Expenses Already Near $1 Billion,
+                            $2M on Tulsa Rally Alone</strong
+                          ></a
+                        >
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="sectionflex">
+                    <figure>
+                      <img
+                        src="https://d.newsweek.com/en/full/1611658/israel-west-bank-annexation-china-palestinians-settlements.jpg?w=95&h=95&f=faeb74a86d2adce06c34729fa64cbef9"
+                        alt=""
+                      />
+                      <figcaption>
+                        <a href=""
+                          ><strong
+                            >USDA Finds Numerous Starved and Ailing Animals at
+                            'Tiger King' Zoo</strong
+                          ></a
+                        >
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="sectionflex">
+                    <figure>
+                      <img
+                        src="https://d.newsweek.com/en/full/1611652/medical-facility-moscow-russia-july-2020.jpg?w=397&h=265&f=d2419e147876ab993e61c52a733a845f"
+                        alt=""
+                      />
+                      <figcaption>
+                        <a href=""
+                          ><strong
+                            >On Senate Floor, Oregon Senator Demands End to
+                            'Trump's Secret Police'</strong
+                          ></a
+                        >
+                      </figcaption>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="red-headings border-top my-4">
+              <h3 class="font-weight-bold">Business</h3>
+              <div class="row">
+                <div class="col-sm-12 col-md">
+                  <a href="#"
+                    ><img
+                      src="https://d.newsweek.com/en/full/1611914/labor-department-unemployment-benefits-jobless.jpg?w=397&h=265&f=0cd1f0d1327944e970351aff852309d3"
+                      alt=""
+                  /></a>
+
+                  <a href="">
+                    <h3>
+                      Labor Secretary: $600 Unemployment Benefits Paid People
+                      More Not to Work
+                    </h3>
+                  </a>
+                </div>
+                <div class="col-sm-12 col-md">
+                  <a href="#"
+                    ><img
+                      src="https://d.newsweek.com/en/full/1611066/nba-china-us-companies-business.jpg?w=397&h=265&f=4288bba9fc438f5f43b13d1a4d09638d"
+                      alt=""
+                  /></a>
+
+                  <a href="">
+                    <h3>
+                      GOP Senator Drafting Bill to Block U.S. Companies From
+                      'Giving in' to China
+                    </h3>
+                  </a>
+                </div>
+                <div class="col-sm-12 col-md">
+                  <div class="sectionflex">
+                    <figure>
+                      <img
+                        src="https://d.newsweek.com/en/full/1612035/trump-tulsa-rally.jpg?w=397&h=265&f=5b85089cfaf5e4b0c3621236a6927757"
+                        alt=""
+                      />
+                      <figcaption>
+                        <a href=""
+                          ><strong
+                            >Trump Reelection Expenses Already Near $1 Billion,
+                            $2M on Tulsa Rally Alone</strong
+                          ></a
+                        >
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="sectionflex">
+                    <figure>
+                      <img
+                        src="https://d.newsweek.com/en/full/1612006/tiger-king-zoo-animal-abuse-usda-investigation.jpg?w=95&h=95&f=0f2fd91ac9ffa799eea58ff39f3be87f"
+                        alt=""
+                      />
+                      <figcaption>
+                        <a href=""
+                          ><strong
+                            >USDA Finds Numerous Starved and Ailing Animals at
+                            'Tiger King' Zoo</strong
+                          ></a
+                        >
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="sectionflex">
+                    <figure>
+                      <img
+                        src="https://d.newsweek.com/en/full/1612019/jeff-merkley.jpg?w=95&h=95&f=b3db89a75083f642ec6e895cd3428c24"
+                        alt=""
+                      />
+                      <figcaption>
+                        <a href=""
+                          ><strong
+                            >On Senate Floor, Oregon Senator Demands End to
+                            'Trump's Secret Police'</strong
+                          ></a
+                        >
+                      </figcaption>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="red-headings border-top my-4">
+              <h3 class="font-weight-bold">Tech & Science</h3>
+              <div class="row">
+                <div class="col-sm-12 col-md">
+                  <a href="#"
+                    ><img
+                      src="https://d.newsweek.com/en/full/1611714/mark-zuckerberg.jpg?w=397&h=265&f=b953c68e8221b51bdcb2a005336a2ced"
+                      alt=""
+                  /></a>
+
+                  <a href="">
+                    <h3>
+                      British Politicians Call for Crackdown on Social Media
+                      Companies
+                    </h3>
+                  </a>
+                </div>
+                <div class="col-sm-12 col-md">
+                  <a href="#"
+                    ><img
+                      src="https://d.newsweek.com/en/full/1611655/mark-zuckerberg.jpg?w=397&h=265&f=102d085d5820849f56a2be5f0a07ccdf"
+                      alt=""
+                  /></a>
+
+                  <a href="">
+                    <h3>
+                      Facebook Is a Publisher and Must Be Responsible for
+                      Content: Martin Sorrell
+                    </h3>
+                  </a>
+                </div>
+                <div class="col-sm-12 col-md">
+                  <div class="sectionflex">
+                    <figure>
+                      <img
+                        src="https://d.newsweek.com/en/full/1611283/earth-magnetic-field.jpg?w=397&h=265&f=a4a723ab62c6b4d8b6b5af3873dc7731"
+                        alt=""
+                      />
+                      <figcaption>
+                        <a href=""
+                          ><strong
+                            >Trump Reelection Expenses Already Near $1 Billion,
+                            $2M on Tulsa Rally Alone</strong
+                          ></a
+                        >
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="sectionflex">
+                    <figure>
+                      <img
+                        src="https://d.newsweek.com/en/full/1611308/polar-bear-arctic.jpg?w=95&h=95&f=adce8a952f690edc9ce81511b0a1ef1b"
+                        alt=""
+                      />
+                      <figcaption>
+                        <a href=""
+                          ><strong
+                            >Zuckerberg Calls Rumors of a Secret Deal With Trump
+                            'Pretty Ridiculous'</strong
+                          ></a
+                        >
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="sectionflex">
+                    <figure>
+                      <img
+                        src="https://d.newsweek.com/en/full/1611280/mark-zuckerberg.jpg?w=95&h=95&f=0a76cf6a830c7c72637b8321ef9e168c"
+                        alt=""
+                      />
+                      <figcaption>
+                        <a href=""
+                          ><strong
+                            >On Senate Floor, Oregon Senator Demands End to
+                            'Trump's Secret Police'</strong
+                          ></a
+                        >
+                      </figcaption>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="red-headings border-top my-4">
+              <h3 class="font-weight-bold">Culture</h3>
+              <div class="row">
+                <div class="col-sm-12 col-md">
+                  <a href="#"
+                    ><img
+                      src="https://d.newsweek.com/en/full/1611880/prince-george-royal-international-air-tattoo.jpg?w=397&h=265&f=3ceaf442b1cbd0df2502800d15bbdd19"
+                      alt=""
+                  /></a>
+
+                  <a href="">
+                    <h3>
+                      Prince George Seventh Birthday Photo Released By Kate
+                      Middleton
+                    </h3>
+                  </a>
+                </div>
+                <div class="col-sm-12 col-md">
+                  <a href="#"
+                    ><img
+                      src="https://d.newsweek.com/en/full/1611980/katara-korra.jpg?w=397&h=265&l=57&t=36&f=d3a40e0df75c216be42381224de3d4b4"
+                      alt=""
+                  /></a>
+
+                  <a href="">
+                    <h3>
+                      9 'Avatar: The Last Airbender' Characters Who Appear in
+                      'Legend of Korra'
+                    </h3>
+                  </a>
+                </div>
+                <div class="col-sm-12 col-md">
+                  <div class="sectionflex">
+                    <figure>
+                      <img
+                        src="https://d.newsweek.com/en/full/1611939/shaman-king-sailor-moon-comic-con-home.jpg?w=95&h=95&l=51&t=17&f=3645edf6e1afc27c2a70a7a2ab89d3dd"
+                        alt=""
+                      />
+                      <figcaption>
+                        <a href=""
+                          ><strong>
+                            NDAA Amendment Would Let Soldiers Use Cannabis
+                            Derivatives Like CBD</strong
+                          ></a
+                        >
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="sectionflex">
+                    <figure>
+                      <img
+                        src="https://d.newsweek.com/en/full/1611823/girls-scouts-new-badges.jpg?w=95&h=95&f=8feda20ed4f3e027580b5431bead0c32"
+                        alt=""
+                      />
+                      <figcaption>
+                        <a href=""
+                          ><strong
+                            >Comic-Con at Home: 5 Panels for Anime and Manga
+                            Fans to Check Out</strong
+                          ></a
+                        >
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="sectionflex">
+                    <figure>
+                      <img
+                        src="https://d.newsweek.com/en/full/1612019/jeff-merkley.jpg?w=95&h=95&f=b3db89a75083f642ec6e895cd3428c24"
+                        alt=""
+                      />
+                      <figcaption>
+                        <a href=""
+                          ><strong
+                            >Girl Scouts unveil new badges, find out what makes
+                            them different here</strong
+                          ></a
+                        >
+                      </figcaption>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="red-headings border-top my-4">
+              <h3 class="font-weight-bold">Sports</h3>
+              <div class="row">
+                <div class="col-sm-12 col-md">
+                  <a href="#"
+                    ><img
+                      src="https://d.newsweek.com/en/full/1611995/impact-wrestling-good-brothers-gallows-anderson.jpg?w=397&h=265&f=1a263ca16f0e74b7a32a6e40ee7a8f1d"
+                      alt=""
+                  /></a>
+
+                  <a href="">
+                    <h3>
+                      Impact Wrestling on AXS TV Results: Slammiversary Fallout
+                      Begins Tonight
+                    </h3>
+                  </a>
+                </div>
+                <div class="col-sm-12 col-md">
+                  <a href="#"
+                    ><img
+                      src="https://d.newsweek.com/en/full/1611757/los-angeles-angels.jpg?w=397&h=265&l=47&t=21&f=4d4a3ab2bbf40260ec65ac448fe3438c"
+                      alt=""
+                  /></a>
+
+                  <a href="">
+                    <h3>
+                      Keynan Middleton and Other Baseball Players Kneel During
+                      National Anthem
+                    </h3>
+                  </a>
+                </div>
+                <div class="col-sm-12 col-md">
+                  <div class="sectionflex">
+                    <figure>
+                      <img
+                        src="https://d.newsweek.com/en/full/1611649/dave-martinez-washington-nationals.jpg?w=95&h=95&f=365717126ba0eca8bdbc0d8b5b065222"
+                        alt=""
+                      />
+                      <figcaption>
+                        <a href=""
+                          ><strong
+                            >Trump Reelection Expenses Already Near $1 Billion,
+                            $2M on Tulsa Rally Alone</strong
+                          ></a
+                        >
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="sectionflex">
+                    <figure>
+                      <img
+                        src="https://d.newsweek.com/en/full/1611613/san-francisco-giants-mlb.jpg?w=95&h=95&f=768aed0ae19bd155747d1b00c9a00819"
+                        alt=""
+                      />
+                      <figcaption>
+                        <a href=""
+                          ><strong
+                            >Zuckerberg Calls Rumors of a Secret Deal With Trump
+                            'Pretty Ridiculous'</strong
+                          ></a
+                        >
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="sectionflex">
+                    <figure>
+                      <img
+                        src="https://d.newsweek.com/en/full/1611280/mark-zuckerberg.jpg?w=95&h=95&f=0a76cf6a830c7c72637b8321ef9e168c"
+                        alt=""
+                      />
+                      <figcaption>
+                        <a href=""
+                          ><strong
+                            >On Senate Floor, Oregon Senator Demands End to
+                            'Trump's Secret Police'</strong
+                          ></a
+                        >
+                      </figcaption>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </section>
+          <section class="subscribe border-top mx-auto">
+            <h2 class="hidden">.</h2>
+            <div class="row">
+              <div class="col-md-12 col-lg-8">
+                <section class="red-headings">
+                  <h3 class="font-weight-bold text-capitalize">subscribe</h3>
+                  <div class="bg-subscribe p-4">
+                    <div class="row justify-content-between">
+                      <div class="col-4">
+                        <div class="subscribe-imgs">
+                          <img
+                            src="https://d.newsweek.com/en/full/1607281/cover-july-10-17-2020.jpg?w=170&q=95&f=2207bd7076117dd4ea34f97a3532195f"
+                            alt=""
+                          />
+
+                          <img
+                            src="https://d.newsweek.com/en/full/1610195/cover-july-24-2020.jpg?w=170&q=95&f=2ea70c30e8f5467c1e61021ae9778138"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+
+                      <div class="col-md-6 col-lg-7">
+                        <div class="subscribe-text my-5 px-3 mx-auto">
+                          <h2>
+                            In-depth Stories You Don't See Elsewhere About
+                            Topics You Want to Read!
+                          </h2>
+                          <p>
+                            All Access + Weekly Delivery. Choose A Membership
+                            That's Perfect for You!
+                          </p>
+                          <button>subscribe</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </div>
+
+              <div class="col">
+                <section class="red-headings news px-3 mx-auto">
+                  <h3 class="font-weight-bold text-capitalize">newsletter</h3>
+                  <div class="border">
+                    <div class="row">
+                      <div class="col-6 col-md-4 d-none d-md-block">
+                        <div class="bg-image"></div>
+                      </div>
+                      <div class="col">
+                        <div class="mx-auto my-5 text-center">
+                          <h3 class="mx-auto">The Starting 5</h3>
+                          <p class="mx-auto">
+                            See why nearly a quarter of a million subscribers
+                            begin their day with the Starting 5.
+                          </p>
+                          <div class="row">
+                            <div class="col-12">
+                              <input
+                                class="mx-auto my-1 news-input"
+                                type="text"
+                                placeholder="Email address"
+                              />
+                            </div>
+                            <div class="col-12">
+                              <button class="mx-auto my-1 full-width">
+                                free sign up
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </section>
+        </main>
+        <footer class="mx-auto border-top mt-5 pt-2">
+          <div
+            class="footerlogo row justify-content-between border-bottom mb-4"
+          >
+            <div class="col-sm-12 col-md-6">
+              <div class="d-flex newsweekimg">
+                <a href=""><img src="./images/logosvg.png" alt="" /></a>
+                <p>© 2020 NEWSWEEK</p>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6">
+              <div class="socialicons">
+                <ul class="d-flex">
+                  <li>
+                    <a href=""><i class="fab fa-facebook-square"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fab fa-tumblr"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="editions d-flex">
+            <label><strong>Editions:</strong></label>
+            <ul class="d-flex">
+              <li><a href="#">U.S. Edition</a>|</li>
+              <li><a href="#">日本</a>|</li>
+              <li><a href="#">Pakistan</a>|</li>
+              <li><a href="#">Polska</a>|</li>
+              <li><a href="#">România</a></li>
+            </ul>
+          </div>
+          <div>
+            <ul class="footer-links">
+              <li><a href="#">About Us</a>|</li>
+              <li><a href="#">Corrections</a>|</li>
+              <li><a href="#">Contact Us</a>|</li>
+              <li><a href="#">Editorial Guidelines</a>|</li>
+              <li><a href="#">Advertise</a>|</li>
+              <li><a href="#">Copyright</a>|</li>
+              <li><a href="#">Terms & Conditions</a>|</li>
+              <li><a href="#">Privacy Policy</a>|</li>
+              <li><a href="#">Cookie Policy</a>|</li>
+              <li><a href="#">Terms of Sale</a>|</li>
+              <li><a href="#">Archive</a>|</li>
+              <li><a href="#">Announcements</a>|</li>
+              <li><a href="#">Consent preferences</a>|</li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
