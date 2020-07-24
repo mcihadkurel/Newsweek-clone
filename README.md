@@ -1,9 +1,8 @@
 # Newsweek Clone
 
-This project contains Twitter Bootstrap framework. 
+This project contains Twitter Bootstrap framework.
 
 <img src="./images/projectSS.png" alt="Screenshot">git
-
 
 ## Built With
 
@@ -12,11 +11,9 @@ This project contains Twitter Bootstrap framework.
 - Responsive media queries for all screen sizes
 - Semantic HTML
 
-
 ## Live Demo
 
-[Live](https://rawcdn.githack.com/mcihadkurel/Newsweek-clone/f3ea6094b9fc5d52cb170ddbdc1921e48d0a8ca3/index.html)
-
+[Live](https://raw.githack.com/mcihadkurel/Newsweek-clone/newsweek-feature/index.html)
 
 👤 **Author**
 
@@ -29,7 +26,6 @@ This project contains Twitter Bootstrap framework.
 - Github: [@mohapakram](https://github.com/mohapakram)
 - Twitter: [@mohapakram](https://twitter.com/mohapakram)
 - LinkedIn: [@mohap](https://www.linkedin.com/in/mohab-akram-667093131/)
-
 
 ## 🤝 Contributing
 

@@ -115,16 +115,13 @@ main img {
 }
 
 .subscribe-imgs img {
-  width: 150px;
+  height: 100%;
+  width: auto;
 }
 
 .sectionflex img {
   width: 80px;
   height: 80px;
-}
-
-.magazine-feature img {
-  height: 376px;
 }
 
 .magazine-article img {
@@ -137,7 +134,6 @@ main img {
 
 .morestory img {
   float: left;
-  height: 100%;
   width: auto;
   margin-right: 8px;
 }
@@ -312,11 +308,9 @@ article h3:hover {
   width: 4px;
   height: 9px;
   background-color: black;
-  -webkit-mask:
-    url(https://g.newsweek.com/www/images/icon-arrow-right.svg)
+  -webkit-mask: url(https://g.newsweek.com/www/images/icon-arrow-right.svg)
     center / contain no-repeat;
-  mask:
-    url(https://g.newsweek.com/www/images/icon-arrow-right.svg) center /
+  mask: url(https://g.newsweek.com/www/images/icon-arrow-right.svg) center /
     contain no-repeat;
   margin-left: 5px;
 }
@@ -341,9 +335,9 @@ article h3:hover {
 
 #vs {
   background-color: black;
-  position: absolute;
-  top: 131px;
-  right: 150px;
+  /* position: absolute;
+  top: 14%;
+  right: 45%; */
 }
 
 .openion-section ul {
@@ -418,13 +412,13 @@ article.mini h3 a:hover {
 }
 
 .news-input {
-  width: 150px;
+  width: 80%;
   border: 1px solid #e0e1e1;
   padding: 5px;
 }
 
 .news button {
-  width: 150px;
+  width: 80%;
 }
 
 .footer-links {
